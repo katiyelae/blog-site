@@ -1,0 +1,19 @@
+.feature-container{
+    position: relative;
+    /* text-align: center; */
+    color: #474367;
+}
+
+img {
+    height: 600px;
+    width: 100%;
+    object-fit: fill; /* Ensure the image covers the entire container */
+   opacity: 0.75;
+  }
+
+.content-container h1{
+    height: 200px;  
+    width: 100px;
+    font-size: 64px;
+    text-align: center;
+}
