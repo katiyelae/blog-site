@@ -1,0 +1,46 @@
+/* styling for feature image section of the home page */
+.feature-container{
+    position: relative;
+    text-align: center;
+    color: #474367;
+}
+
+img {
+    height: 600px;
+    width: 100%;
+    object-fit: fill; /* Ensure the image covers the entire container */
+    opacity: 0.75;
+  }
+
+.feature-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:200px;
+    font-size: 64px;
+}
+
+/* styling for main content section area */
+
+.main-content-section{
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px;
+    gap: 50px;
+    text-align: start;
+}
+.about-me-section{
+    margin-top: 65px;
+}
+.about-me-container{
+   background-color: lightgray;
+    height: 1500px;
+    text-align: center;
+    padding: 5px;
+    
+ }
+ .about-me-container img {
+    height: 200px;
+    width: 200px;
+ }

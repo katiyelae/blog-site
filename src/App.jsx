@@ -1,10 +1,11 @@
 import RoutePaths from './RoutePaths';
-import Navbar from './components/Navbar/navbar';
+import Navbar from './components/Navbar/Navbar';
+import './App.css'
 
 
 function App() {
   return (
-    <div>
+    <div className='app-container'>
       <Navbar />
       <RoutePaths />
     </div> 
