@@ -20,3 +20,27 @@ img {
     width:200px;
     font-size: 64px;
 }
+
+/* styling for main content section area */
+
+.main-content-section{
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px;
+    gap: 50px;
+    text-align: start;
+}
+.about-me-section{
+    margin-top: 65px;
+}
+.about-me-container{
+   background-color: lightgray;
+    height: 1500px;
+    text-align: center;
+    padding: 5px;
+    
+ }
+ .about-me-container img {
+    height: 200px;
+    width: 200px;
+ }

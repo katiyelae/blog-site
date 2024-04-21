@@ -12,7 +12,8 @@ export default function postPreview() {
             <div>March 12, 2024</div>
             <h2>Twisted Lies Review</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur vitae assumenda quisquam repellendus ipsum consequuntur qui delectus. Itaque voluptatibus odio quam. Ullam molestiae ad cumque doloribus rerum esse officiis dignissimos?</p>
-            <div>Read More...</div>
+            {/* this will link to actualy blog post to read more */}
+            <div>Read More...</div> 
         </div>
     </div>
   )
