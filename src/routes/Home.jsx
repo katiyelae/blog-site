@@ -21,6 +21,7 @@ const Home = () => {
                     <PostPreview />
                     <PostPreview />
                     <PostPreview />
+                    <span>See More...</span>
                 </div>
                 <div className="about-me-section">
                     <div className="about-me-container">
