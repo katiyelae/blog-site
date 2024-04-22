@@ -21,6 +21,7 @@ const Home = () => {
                     <PostPreview />
                     <PostPreview />
                     <PostPreview />
+                    {/* add link to take to blog page of application to see more posts */}
                     <span>See More...</span>
                 </div>
                 <div className="about-me-section">
@@ -30,8 +31,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            
-
         </>
     )
 }
