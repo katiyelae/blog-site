@@ -5,7 +5,7 @@
     color: #474367;
 }
 
-img {
+.feature-img {
     height: 600px;
     width: 100%;
     object-fit: fill; /* Ensure the image covers the entire container */

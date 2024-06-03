@@ -9,7 +9,7 @@ const Home = () => {
         <>
             <div className="feature-image-section">
                 <div className='feature-container'>  
-                    <img src={FeatureImg} alt="landing page feature" />
+                    <img src={FeatureImg} className="feature-img" alt="landing page feature" />
                     <h1 className='feature-text'>Read, Dream, Repeat</h1>
                 </div>
             </div>

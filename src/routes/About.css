@@ -1,0 +1,25 @@
+/* styling for main section */
+.about-main-section{
+    height: 750px;
+    text-align: center;
+}
+.about-img-logo{
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* begins styling for text/picture content  */
+.about-content-section{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+
+    gap: 75px;
+}
+.blogger-pic{
+    height: 500px;
+    width: 500px;
+}
+
