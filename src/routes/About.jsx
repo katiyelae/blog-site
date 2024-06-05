@@ -12,7 +12,7 @@ const About = () => {
             </main>
             <section className="about-content-section">
                 <div className="blogger-img">
-                    <img src={BlankImg} alt="blog creator" />
+                    <img src={BlankImg} className="blogger-pic"alt="blog creator" />
                 </div>
                 <div className="about-text-content">
                     <h1>Welcome to Daydreamers Book Haven...</h1>
