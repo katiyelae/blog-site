@@ -1,34 +1,18 @@
-.footer-container{
-    background-color: #64577D;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    font-size: 36px;
-    color: white;   
- }
-
- .email-list-form{
-    width: 50%;
-   padding: 0 auto;
- }
-
-.email-input-area{
-     height: 2rem;
-     border-radius: 10px 0 0 10px;
-     border: none;
-     width: 75%;
+.email-input-box{
+    padding: "10px";
+            font-Size: 16px;
+            border: 2px solid #ddd;
+            border-Radius: 5px;
+            width: 250px;
 }
-input::placeholder{
-    padding-left: 20px
-}
-.email-list-form button{
-    width: 23%;
-    height: 2.3rem;
-    background-color: #474367;
-    border: none;
-    border-radius: 0 10px 10px 0;
-    color: white;
-    font-size: 18px;
+
+.subscribe-button-box{
+    margin: 10px;
+            padding: 10px;
+            background-Color: #4CAF50;
+            border: none;
+            color: white;
+            font-Size: 16px;
+            borde-Radius: 5px;
+            cursor: pointer;
 }
