@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     margin: 0 75px;
-    gap: 75px;
+    gap: 50px;
 }
 .blogger-pic{
     height: 600px ;
@@ -24,4 +24,11 @@
 }
 .about-text-content{
     padding: 0 50px;
+}
+.about-text-intro{
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.about-text-body {
+    font-size: 18px;
 }

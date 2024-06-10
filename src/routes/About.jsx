@@ -15,8 +15,8 @@ const About = () => {
                     <img src={BlankImg} className="blogger-pic"alt="blog creator" />
                 </div>
                 <div className="about-text-content">
-                    <h1>Welcome to Daydreamers Book Haven...</h1>
-                    <p>I’m Kati and books have been a part of my life for quite some time. During the summers of my preteen years,  my dad would take my sister and I to the Borders Book Store and we would spend hours in there...daily! lol and then end the day going out for lunch <br /><br />
+                    <h1 className="about-text-intro">Welcome to Daydreamers Book Haven...</h1>
+                    <p className="about-text-body">I’m Kati and books have been a part of my life for quite some time. During the summers of my preteen years,  my dad would take my sister and I to the Borders Book Store and we would spend hours in there...daily! lol and then end the day going out for lunch <br /><br />
 
                     During that time, I was introduced to so many worlds, characters and feelings that shaped my imagination, and in the end, fell in love with reading. The Twilight, Perfect Chemistry and Kimani Tru book series had a serious hold on me back then. But once I hit high school, I stepped away... for a while (you know, doing what teenagers are supposed to do, right? ) . I read a book here and there while in college, but not like when I was a kid. <br /><br />
 
