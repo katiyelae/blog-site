@@ -1,13 +1,13 @@
 /* styling for main section */
 .about-main-section{
-    height: 750px;
+    height: 550px;
     text-align: center;
 }
 .about-img-logo{
     height: 400px;
     width: 400px;
     margin-top: 20px;
-    margin-bottom: 40px;
+    /* margin-bottom: 0px; */
 }
 
 /* begins styling for text/picture content  */
@@ -15,11 +15,20 @@
     height: 800px;
     display: flex;
     justify-content: center;
-
-    gap: 75px;
+    margin: 0 75px;
+    gap: 50px;
 }
 .blogger-pic{
-    height: 500px;
+    height: 600px ;
     width: 500px;
 }
-
+.about-text-content{
+    padding: 0 50px;
+}
+.about-text-intro{
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.about-text-body {
+    font-size: 18px;
+}

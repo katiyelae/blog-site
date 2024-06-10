@@ -1,34 +1,33 @@
 .footer-container{
     background-color: #64577D;
+    height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 200px;
-    font-size: 36px;
-    color: white;   
- }
-
- .email-list-form{
-    width: 50%;
-   padding: 0 auto;
- }
-
-.email-input-area{
-     height: 2rem;
-     border-radius: 10px 0 0 10px;
-     border: none;
-     width: 75%;
+    justify-content: center;
 }
-input::placeholder{
-    padding-left: 20px
+
+.footer-text{
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-size: 40px;
 }
-.email-list-form button{
-    width: 23%;
-    height: 2.3rem;
-    background-color: #474367;
+
+.email-input-box{
+    padding: 8px;
+    font-Size: 16px;
+    border: 2px solid #ddd;
+    border-Radius: 5px;
+    width: 300px;
+}
+
+.subscribe-button-box{
+    margin: 10px;
+    padding: 10px;
+    background-Color: #474367;
     border: none;
-    border-radius: 0 10px 10px 0;
     color: white;
-    font-size: 18px;
+    font-Size: 16px;
+    border-Radius: 5px;
+    cursor: pointer;
 }
