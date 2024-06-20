@@ -1,18 +1,13 @@
 import React from "react";
-import FeatureImg from '../assets/images/landingpageimg.png'
 import PostPreview from '../components/PostPreview/PostPreview'
 import User from '../assets/images/circlePlaceholder.png'
 import './Home.css'
+import HomeHeader from "../components/HomeHeader/homeheader"
 
 const Home = () => {
     return (
         <>
-            <div className="feature-image-section">
-                <div className='feature-container'>  
-                    <img src={FeatureImg} className="feature-img" alt="landing page feature" />
-                    <h1 className='feature-text'>Read, Dream, Repeat</h1>
-                </div>
-            </div>
+           <HomeHeader />
             <div className="main-content-section">
                 
                 <div className="post-preview-section">

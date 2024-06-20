@@ -1,0 +1,24 @@
+  .home-header-container {
+    position: relative;
+  display: inline-block;
+  }
+  
+  .home-header-container img{
+    display: block;
+    width: 100%;
+    height: 650px;
+
+  }
+  
+  .img-overlay-text{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    /* background-color: #fff;  */
+    color: #474367; 
+    padding: 10px 200px; 
+    font-size: 64px; 
+    text-align: center;
+
+  }

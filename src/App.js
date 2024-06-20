@@ -7,15 +7,9 @@ import './App.css'
 function App() {
   return (
     <div id="root">
-      <div className="header-container">
       <Navbar />
-      </div>
-     <div className="main-content-container">
-     <RoutePaths />
-     </div>
-     <div className="footer-container">
-     <Footer />
-     </div>
+      <RoutePaths />
+      <Footer />
     </div> 
   );
 }
