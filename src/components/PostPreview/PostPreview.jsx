@@ -18,3 +18,26 @@ export default function postPreview() {
     </div>
   )
 }
+
+
+
+// example of how to style the same component differently based on path/location 
+// import { useLocation } from "react-router-dom";
+
+// const Home = () => {
+//     let location = useLocation();
+//     ...
+//     return (
+//         <>...
+//            <Navigation location={location.pathname} styleClass={"homepage-navbar"}/>
+//         </>
+//     )
+// }
+// const Navigation = ({location, styleClass}) => {
+//    ...
+//    return(
+//        <nav className={location === "/home" ? styleClass : "default-navbar"}>
+//             ...
+//        </nav>
+//    )
+// }

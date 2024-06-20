@@ -1,25 +1,3 @@
-/* styling for feature image section of the home page */
-.feature-container{
-    position: relative;
-    text-align: center;
-    color: #474367;
-}
-
-.feature-img {
-    height: 600px;
-    width: 100%;
-    object-fit: fill; /* Ensure the image covers the entire container */
-    opacity: 0.75;
-  }
-
-.feature-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width:200px;
-    font-size: 64px;
-}
 
 /* styling for main content section area */
 
