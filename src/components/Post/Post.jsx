@@ -10,7 +10,12 @@ export default function Post() {
             alt=""
         />
     <div className="post-info">
-        <span className="post-date">June 21, 2024</span>
+      
+    <div className="post-cats">
+        <span className="post-cat">
+            Book Review
+        </span>
+      </div>
         <hr />  
       <span className="post-title">
           Lorem ipsum dolor sit amet
@@ -24,11 +29,8 @@ export default function Post() {
       fugiat, reprehenderit praesentium blanditiis quos cupiditate ratione
       atque, exercitationem quibusdam, reiciendis odio laboriosam?
     </p>
-    <div className="post-cats">
-        <span className="post-cat">
-            Book Review
-        </span>
-      </div>
+    
+      <span className="post-date">June 21, 2024</span>
   </div>
   )
 }

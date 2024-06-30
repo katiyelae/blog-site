@@ -1,34 +1,8 @@
 
-/* styling for main content section area */
-
-/* .main-content-section{
+.home {
     display: flex;
-    justify-content: center;
-    margin: 50px 100px;
-    gap: 75px;
-    text-align: start;
-}
-.post-preview-section span{
-    display: block;
-    margin: 75px 0 50px 0;
-    text-align: right;
-    font-size: 20px;
-} */
-
-/* on the right side of the section */
-/* .about-me-section{
-    margin-top: 65px;
-}
-.about-me-container{
-   background-color: lightgray;
-    height: 700px;
-    width: 300px;
-    text-align: center;
-    padding: 25px;
-    
- }
- .about-me-container img {
-    height: 200px;
-    width: 200px;
- } */
+  }
+  
+  
+ 
 

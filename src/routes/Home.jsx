@@ -8,8 +8,8 @@ const Home = () => {
     return (
         <>
            <HomeHeader />
-           <Sidebar />
-           <Posts />
+           <Sidebar className="home-sidebar" />
+           <Posts className="home-posts-section" />
         </>
     )
 }
