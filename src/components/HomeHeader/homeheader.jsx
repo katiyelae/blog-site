@@ -10,7 +10,7 @@ export default function homeheader() {
             src={HomeImg}
             alt="landing page img"
         />
-        <div class="img-overlay-text">Read. Dream. Escape.</div>
+        <div className="img-overlay-text">Read. Dream. Escape.</div>
     </div>
   )
 }
