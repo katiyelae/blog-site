@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes, Route, Navigate,} from 'react-router-dom';
 import About from "./routes/About"
 import Home from "./routes/Home"
-// import BlogPosts from "./routes/BlogPosts"
+import Single from "./routes/Single"
 import ErrorPage from "./routes/ErrorPage"
 
 
@@ -12,7 +12,7 @@ const RoutePaths = () => {
           <Routes>
             <Route path="/" element = {<Home />} />
             <Route path="/about" element={<About />} />
-            {/* <Route path="/blog" element={<BlogPosts />} /> */}
+            <Route path="/singlepost" element={<Single />} />
           
     
             {/* Error paths, keep last */}
