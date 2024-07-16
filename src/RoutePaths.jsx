@@ -4,6 +4,7 @@ import About from "./routes/About"
 import Home from "./routes/Home"
 import Single from "./routes/Single"
 import ErrorPage from "./routes/ErrorPage"
+import Write from "./routes/Write"
 
 
 //route paths for application
@@ -13,6 +14,7 @@ const RoutePaths = () => {
             <Route path="/" element = {<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/singlepost" element={<Single />} />
+            <Route path="/writepost" element={<Write />} />
           
     
             {/* Error paths, keep last */}
